@@ -10,3 +10,31 @@ direction = point_direction(x, y, mouse_x, mouse_y);
 /// @DnDHash : 2F72E2CF
 /// @DnDArgument : "angle" "direction"
 image_angle = direction;
+
+/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Mouse_Down
+/// @DnDVersion : 1.1
+/// @DnDHash : 66FD2C37
+var l66FD2C37_0;
+l66FD2C37_0 = mouse_check_button(mb_left);
+if (l66FD2C37_0)
+{
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 3AAFD32A
+	/// @DnDParent : 66FD2C37
+	/// @DnDArgument : "var" "cooldown"
+	/// @DnDArgument : "op" "3"
+	if(cooldown <= 0)
+	{
+		/// @DnDAction : YoYo Games.Instances.Create_Instance
+		/// @DnDVersion : 1
+		/// @DnDHash : 7B12BC3B
+		/// @DnDParent : 3AAFD32A
+		/// @DnDArgument : "xpos" "x"
+		/// @DnDArgument : "ypos" "y"
+		/// @DnDArgument : "objectid" "obj_bullet"
+		/// @DnDArgument : "layer" ""layer_Bullet""
+		/// @DnDSaveInfo : "objectid" "3611dc95-7dcb-48bf-8084-95889a11c2c6"
+		instance_create_layer(x, y, "layer_Bullet", obj_bullet);
+	}
+}
