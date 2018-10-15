@@ -36,5 +36,21 @@ if (l66FD2C37_0)
 		/// @DnDArgument : "layer" ""layer_Bullet""
 		/// @DnDSaveInfo : "objectid" "3611dc95-7dcb-48bf-8084-95889a11c2c6"
 		instance_create_layer(x, y, "layer_Bullet", obj_bullet);
+	
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 7B32DF2A
+		/// @DnDParent : 3AAFD32A
+		/// @DnDArgument : "expr" "5"
+		/// @DnDArgument : "var" "cooldown"
+		cooldown = 5;
 	}
 }
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 72BCBF21
+/// @DnDArgument : "expr" "-1"
+/// @DnDArgument : "expr_relative" "1"
+/// @DnDArgument : "var" "cooldown"
+cooldown += -1;
