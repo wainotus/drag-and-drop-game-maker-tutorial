@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "6eb8f797-de02-4522-a445-64159e8b98cb",
+            "Value": {
+                "id": "78065234-129d-43b1-8fb2-5de76ccd1e2b",
+                "resourcePath": "objects\\obj_enemyspawn\\obj_enemyspawn.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "74236a22-ff2a-4e04-ae4e-031e88c7f543",
             "Value": {
                 "id": "0189ccc8-2cd3-4f63-a740-3ce023f3e0fa",
@@ -260,6 +268,14 @@
                 "id": "b9de42de-c708-4845-bf43-fd0790b25e92",
                 "resourcePath": "rooms\\rm_game\\rm_game.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "c9621a4a-9a4c-482f-adfb-518bda11819b",
+            "Value": {
+                "id": "2b248b19-8eea-4c8e-b058-ba078d987439",
+                "resourcePath": "objects\\obj_spawner\\obj_spawner.yy",
+                "resourceType": "GMObject"
             }
         },
         {
